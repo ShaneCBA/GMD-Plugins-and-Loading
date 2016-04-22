@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Adequate;
+    src: url(Adequate-ExtraLight.ttf);
+}
+body
+{
+  background-color:#636363;
+  font-family: Adequate;
+  font-weight: bold;
+  text-align: center;
+}
+.center
+{
+  text-align: center;
+  margin: auto;
+}
+.content
+{
+  position: relative;
+}
+.avatar
+{
+  border-radius: 100%;
+  display: inline-block;
+  height: 194px;
+  width: 194px;
+  box-shadow: 0px -1px 5px rgba(0,0,0,0.75);
+}
+.userinfo
+{
+  background-color: white;
+  border-radius: 0px 10px 10px 10px;
+  padding: 7px 20px;
+  margin: 10px;
+  top: 97px;
+  font-size: 18px;
+  box-shadow: 0px -1px 5px rgba(0,0,0,0.75);
+  position: absolute;
+}
+.inline
+{
+  display: inline-block;
+}
+.container
+{
+  display: inline-block; 
+  vertical-align:top;
+  box-shadow: 0px -1px 5px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  margin: 0px 5px;
+}
+.container > .title
+{
+  color: #FFF;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 10px 10px 0px 0px;
+}
+.container > .contcontent
+{
+  font-size: 17px;
+  background-color: #FFF;
+  border-radius: 0px 0px 10px 10px;
+}
+.container > .contcontent > .row
+{
+  padding: 10px;
+  border-top: 1px solid #C3C3C3;
+}
+.container > .contcontent > .row > t
+{
+  font-size: 15px
+}
+.container > .contcontent > .row:first-child
+{
+  border: none;
+}
