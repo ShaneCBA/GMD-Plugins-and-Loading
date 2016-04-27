@@ -1,77 +1,137 @@
+
+
+/*THEMECOLOR:#3CB2CE*/
+
+
 @font-face {
     font-family: Adequate;
-    src: url(Adequate-ExtraLight.ttf);
+    src: url(./Fonts/Adequate-ExtraLight.ttf);
+}
+body,html
+{
+  height: 100%;
+  margin: 0px;
+  font-family: Adequate;
+  font-weight: bold;
 }
 body
 {
-  background-color:#636363;
-  font-family: Adequate;
-  font-weight: bold;
-  text-align: center;
 }
-.center
+.vcenter:before {
+  content: " ";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  max-width: 0.001%; /* Just in case the text wrapps, you shouldn't notice it */
+}
+  
+.vcenter :first-child {
+  display:inline-block;
+  vertical-align:middle;
+  max-width: 99.999%;
+}
+#col_1, #col_2
 {
-  text-align: center;
-  margin: auto;
+  vertical-align: top;
+  margin:10px;
+  display: inline-block;
 }
-.content
+#col_1 > div, #col_2 > div
 {
-  position: relative;
+  margin: 10px;
+  display: inline-block;
+  width: 100%;
 }
-.avatar
+#playerStatus
+{
+  background-color:#F1F1F1;/* #3e3e3e;*/
+  border-radius: 10px;
+  color: black;
+  max-width: 700px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+}
+#playerStatus > #avatar
+{
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px 0px 0px 10px;
+  background: #3CB2CE;/*#FF4E4E;*//*[THEMECOLOR]*/
+}
+#playerStatus > #avatar > div > img
 {
   border-radius: 100%;
-  display: inline-block;
-  height: 194px;
-  width: 194px;
-  box-shadow: 0px -1px 5px rgba(0,0,0,0.75);
+  height: 80px;
+  width: 80px;
+  margin: 2px 0px 0px 2px;
 }
-.userinfo
+#playerStatus > #avatar > div
 {
+  border-radius: 100%;
+  height: 84px;
+  width: 84px;
   background-color: white;
-  border-radius: 0px 10px 10px 10px;
-  padding: 7px 20px;
-  margin: 10px;
-  top: 97px;
-  font-size: 18px;
-  box-shadow: 0px -1px 5px rgba(0,0,0,0.75);
-  position: absolute;
 }
-.inline
+#playerStatus > #userInfo
 {
   display: inline-block;
+  vertical-align: top;
+  padding: 0px 10px;
+  height: 94px;
+  line-height: 94px;
+  font-size: 18px;
 }
-.container
+#playerStatus > #userInfo > #name, #playerStatus > #userInfo > #id
 {
-  display: inline-block; 
-  vertical-align:top;
-  box-shadow: 0px -1px 5px rgba(0,0,0,0.75);
+
+}
+
+.infoTable
+{
+  background: #F1F1F1;
   border-radius: 10px;
-  margin: 0px 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.9);
 }
-.container > .title
+.infoTable > .infoTitle
 {
-  color: #FFF;
-  padding: 5px 10px;
-  font-size: 20px;
+  background: #3CB2CE;/*THEMECOLOR*/
+  color:white;
+  padding:5px 10px;
   border-radius: 10px 10px 0px 0px;
 }
-.container > .contcontent
+.infoTable > .table > div
 {
-  font-size: 17px;
-  background-color: #FFF;
+  padding: 5px 10px;
+  /*border-top: 1px solid #BBBBBB;*/
+}
+.infoTable > .table > div:last-child
+{
   border-radius: 0px 0px 10px 10px;
 }
-.container > .contcontent > .row
+.infoTable > .table > div:nth-child(even)
 {
-  padding: 10px;
-  border-top: 1px solid #C3C3C3;
+  background: #DCDCDC;
 }
-.container > .contcontent > .row > t
+
+.metre
 {
-  font-size: 15px
+  position: relative;
+  background-color: #F1F1F1;
+  height:16px;
+  border-radius: 16px;
+  padding: 4px;
+  width: 700px;
+  margin: auto;
 }
-.container > .contcontent > .row:first-child
+.metre > span
 {
-  border: none;
+  display: block;
+  height: 100%;
+  border-radius: 16px 4px 4px 16px;
+  background-color:gray;
+  position: relative;
+  overflow: hidden;
+}
+#downloadStatus
+{
+  text-align: center;
 }

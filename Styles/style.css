@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Adequate;
+    src: url(../Fonts/Adequate-ExtraLight.ttf);
+}
+body,html
+{
+  height: 100%;
+}
+body
+{
+  background: url(http://my-smashing.smashingapps.netdna-cdn.com/wp-content/uploads/2013/04/blurbackgrounds9.jpg);
+  margin: 0px;
+  font-family: Adequate;
+  font-weight: bold;
+}
+
+#logo
+{
+  margin:auto;
+  display: block;
+  max-height: 300px;
+  max-width: 100%;
+}
+#content
+{
+  position: relative;
+  padding-bottom:20px;
+}
+#col_1, #col_2
+{
+  vertical-align: top;
+  margin:10px;
+  display: inline-block;
+}
+#col_1 > div, #col_2 > div
+{
+  margin: 10px;
+  display: inline-block;
+  width: 100%;
+}
+#playerStatus
+{
+  background-color:#F1F1F1;
+  border-radius: 10px;
+  color: black;
+  max-width: 700px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+}
+#playerStatus > #avatar
+{
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px 0px 0px 10px;
+  background: #3CB2CE;
+}
+#playerStatus > #avatar > div > img
+{
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  margin: 2px 0px 0px 2px;
+}
+#playerStatus > #avatar > div
+{
+  border-radius: 100%;
+  height: 84px;
+  width: 84px;
+  background-color: white;
+}
+#playerStatus > #userInfo
+{
+  display: inline-block;
+  vertical-align: top;
+  padding: 0px 10px;
+  height: 94px;
+  line-height: 94px;
+  font-size: 18px;
+}
+#playerStatus > #userInfo > #name, #playerStatus > #userInfo > #id
+{
+
+}
+
+.infoTable
+{
+  background: #F1F1F1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+}
+.infoTable > .infoTitle
+{
+  background: #3CB2CE;/*THEMECOLOR*/
+  color:white;
+  padding:5px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+.infoTable > .table > div
+{
+  padding: 5px 10px;
+  /*border-top: 1px solid #BBBBBB;*/
+}
+.infoTable > .table > div:last-child
+{
+  border-radius: 0px 0px 10px 10px;
+}
+.infoTable > .table > div:nth-child(even)
+{
+  background: #DCDCDC;
+}
+
+.metre
+{
+  position: relative;
+  background-color: #F1F1F1;
+  height:16px;
+  border-radius: 16px;
+  padding: 4px;
+  width: 700px;
+  margin: auto;
+}
+.metre > span
+{
+  display: block;
+  height: 100%;
+  border-radius: 16px 4px 4px 16px;
+  background-color:gray;
+  position: relative;
+  overflow: hidden;
+}
+#downloadStatus
+{
+  text-align: center;
+}
+
+.cycle-slideshow
+{
+  z-index: -99;
+  position: fixed !important;
+  width:100%;
+  height:100%;
+}
+.cycle-slideshow > img
+{
+  z-index: -99;
+  position: fixed !important;
+  width:100%;
+  height:100%;
+}

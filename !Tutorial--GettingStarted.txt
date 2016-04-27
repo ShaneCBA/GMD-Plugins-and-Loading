@@ -1,0 +1,43 @@
+Thanks for downloading Serene Loading Screen! This file explains how to set up your server and loading screen.
+[Created By: http://steamcommunity.com/id/shane_is_tired]
+
+Getting Started:
+	Place the "Serene Loading Screen" folder into you web server. Then set up your server.cfg to match the directory of the loading screen. Better explanation is here : https://wiki.garrysmod.com/page/Loading_URL
+	You MUST have '?steamid=%s' in your sv_loadingurl or this will not work
+Setting Up:
+	Once you hosting done, you need to edit a file called "login.php". It it you will see:
+  //PASSWORD AND USERNAME. DO NOT SHARE
+    $USERNAME = "<username here>";
+    $PASSWORD = "<password here>";
+  //-----------------------------------//
+	!!!DO NOT TOUCH ANYTHING BUT THESE TWO LINES!!!
+	Replace <username here> and <password here> with your specific password and username. Make sure not to share with anyone else. If you do, they can access you settings.
+	
+	Once you set the username and password, go to the directory of the loading screen, and go to login.php . Then use the username and password from earlier to login. You will be redirected to settings.php. You will have to re-login once every 24 hours for security reasons.
+Settings Page:
+	The settings are pretty simple:
+	Server Box & Rules Box:
+		Title Font         : Font size of the title of specific box
+		Table Font         : Font size of the content of specific box
+		Disabled           : Disables specific box
+	Player Info:
+		Avatar Size        : Change the size of the avatar (Width,Height)
+		Font Size          : Change the font size of the name
+	Theme:
+		Progress Bar Color : Change the color of the progress bar
+		Primary Color      : Basically, the color of the titles and avatar
+		Background Folder  : Folder of the background to cycle through. Use ./Backgrounds instead of hostname.com/dir/Backgrounds for easier setup
+		Box Shadow:        : The shadow underneath all the boxes
+		Logo Height        : Pretty self explanitory
+	Misc.:
+		Youtube Music      : Set the youtube music that plays in the background. To enable, tick the checkbox. Youtube music will override all other. To set the music, just open up a song on youtube and copy the url at the top of the screen. No need for embeded nonsense
+		Logo Image         : Set the logo of the page to a specific image
+Music:
+	To play music, either set the Youtube Music in the settings, and tick the checkbox; or drag a .ogg or .mp4 music file into the /Music/ directory.
+	
+**SIDE NOTE**
+	Updates will be added soon. More feature to be added. I just have to find time between homework and school
+	[Planned Features]
+		~Custom CSS box
+		~Set font differently
+		~Padding

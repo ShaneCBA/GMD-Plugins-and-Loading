@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+
+  <serverBox>
+    <titleFont>20px</titleFont>
+    <tableFont>16px</tableFont>
+    <disable>t</disable>
+  </serverBox>
+
+  <ruleBox>
+    <titleFont>20px</titleFont>
+    <tableFont>16px</tableFont>
+    <disable></disable>
+  </ruleBox>
+  
+  <playerBox>
+    <avatarSize>80px</avatarSize>
+    <fontSize>18px</fontSize>
+    <disable></disable>
+  </playerBox>
+
+  <theme>
+    <color>#3CB2CE</color>
+    <background>./Backgrounds/Polygon Backgrounds 1/</background>
+    <progressColor>#808080</progressColor>
+    <boxShadow>0px 0px 5px rgba(0,0,0,0.9)</boxShadow>
+    <logoH>300px</logoH>
+  </theme>
+
+  <misc>
+    <yTube>https://www.youtube.com/watch?v=vpd5oM5loU0</yTube>
+    <yTID>vpd5oM5loU0</yTID>
+    <yTEnabled></yTEnabled>
+    <logoImage>./ServerName.png</logoImage>
+  </misc>
+</settings>
