@@ -69,6 +69,9 @@ if (isset($_POST['submit'])){
   if (isset($_POST['logoImage']))
   {$xml->misc->logoImage = $_POST['logoImage'];}
 
+  if (isset($_POST['customCSS']))
+  {$xml->misc->customCSS = $_POST['customCSS'];}
+
 
   $output = $xml->asXML('./settings.xml');
 }
@@ -165,7 +168,10 @@ if (isset($_POST['submit'])){
           <input type="checkbox" name="yTEnabled" <?php echo $misc->yTEnabled;?>>
           <br>
           Logo Image<br>
-          <input name="logoImage" placeholder="<?php echo $misc->logoImage;?>" type="text">
+          <input name="logoImage" value="<?php echo $misc->logoImage;?>" type="text">
+          <br>
+          Custom CSS<br>
+          <textarea name="customCSS"><?php echo $misc->customCSS;?></textarea>
           <br>
           <input style="margin-top:10px;" name="submit" type="submit">
         </div>

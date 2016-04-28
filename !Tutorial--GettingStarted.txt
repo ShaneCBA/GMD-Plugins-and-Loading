@@ -32,12 +32,10 @@ Settings Page:
 	Misc.:
 		Youtube Music      : Set the youtube music that plays in the background. To enable, tick the checkbox. Youtube music will override all other. To set the music, just open up a song on youtube and copy the url at the top of the screen. No need for embeded nonsense
 		Logo Image         : Set the logo of the page to a specific image
+		Custom CSS         : Add custom CSS to the loading screen
 Music:
 	To play music, either set the Youtube Music in the settings, and tick the checkbox; or drag a .ogg or .mp4 music file into the /Music/ directory.
 	
 **SIDE NOTE**
-	Updates will be added soon. More feature to be added. I just have to find time between homework and school
 	[Planned Features]
-		~Custom CSS box
-		~Set font differently
-		~Padding
+		~Font, Padding and Border Radius in settings

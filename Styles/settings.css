@@ -30,7 +30,7 @@ margin: auto;
   border-radius: 5px;
   max-width: 400px;
 }
-input {
+input, textarea {
   border: 1px solid #dedede;
   border-radius: 3px;
   padding: 3px 4px;

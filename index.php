@@ -68,6 +68,7 @@ else
     #playerStatus > #avatar > div {border-radius: 100%;height: <?php echo (intval($playerBox->avatarSize)+4)."px";?>;width: <?php echo (intval($playerBox->avatarSize)+4)."px";?>;background-color: white;}
     #progress > span {background: <?php echo $progressColor;?> }
     #logo {max-height: <?php echo $theme->logoH; ?>}
+    <?php echo $misc->customCSS; ?>
   </style>
 </head>
 <body>

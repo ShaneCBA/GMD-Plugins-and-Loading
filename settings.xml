@@ -32,5 +32,6 @@
     <yTID>vpd5oM5loU0</yTID>
     <yTEnabled></yTEnabled>
     <logoImage>./ServerName.png</logoImage>
+    <customCSS></customCSS>
   </misc>
 </settings>
